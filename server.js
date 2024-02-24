@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // Register the 'routes' middleware to handle requests at the root path
-app.use('/', routes);
+app.use('/api/v1', routes);
 app.use((req, res) => {
   res.status(404).json({ error: 'Not found' });
 });
