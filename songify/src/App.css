@@ -1,0 +1,115 @@
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #ccc;
+}
+
+.song-list-container {
+  max-width: 600px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.song-list-heading {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.song-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.song-title {
+  margin-top: 0;
+}
+
+.song-info {
+  margin-bottom: 5px;
+}
+
+.song-form-container {
+  max-width: 400px;
+	margin-top: 10px;
+  padding: 20px;
+	border-radius: 15px;
+  background-color: #f1f1f1;
+}
+
+.form-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.song-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+.form-button.delete {
+	background-color: #f44336;
+}
+
+.form-button.delete:hover {
+	background-color: #e53935;
+}
