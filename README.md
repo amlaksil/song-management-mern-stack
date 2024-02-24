@@ -46,14 +46,14 @@ npm install
 ```
 sudo apt-get install docker-compose
 ```
-6. Build and run the Docker containers for the app:
+5. Build and run the Docker containers for the app:
 ```
 docker-compose up -d
 ```
-This command will build the two processes, `api` and `mongo_db`, defined in `docker-compose.yml` file and run them in the background
-7. Navigate to the songify directory and start the app:
+This command will build the two processes, `api` and `mongo_db`, defined in `docker-compose.yml` file and run them in the background.
+6. Navigate to the songify directory, install dependencies, and start the app:
 ```
-cd songify && npm start
+cd songify && npm install && npm start
 ```
 
 ## Development
